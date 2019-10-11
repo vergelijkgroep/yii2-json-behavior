@@ -1,0 +1,30 @@
+{
+  "name": "vergelijkgroep/yii2-json-behavior",
+  "description": "Yii2 json encoding and decoding attribute behavior",
+  "keywords": ["yii2", "behavior", "json"],
+  "type": "yii2-extension",
+  "require": {
+    "php": ">=5.2.0",
+    "yiisoft/yii2": "~2.0.12",
+    "ext-json": "*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "HugovandeVliert",
+      "email": "hugo@vergelijkgroep.com",
+      "role": "Developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "vergelijkgroep\\jsonBehavior\\": "src/"
+    }
+  }
+}
