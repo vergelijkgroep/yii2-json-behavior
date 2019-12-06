@@ -63,3 +63,10 @@ The `emptyValue` is the value of the attribute when its `null` after decoding fr
 #### asArray
 
 The `asArray` option defines the JSON decoding format, true for associative `array`, false for `object`. Default is false.
+
+
+## License
+
+[![MIT](https://img.shields.io/cocoapods/l/AFNetworking.svg?style=style&label=License&maxAge=2592000)](LICENSE)
+
+This software is distributed under the MIT license.
